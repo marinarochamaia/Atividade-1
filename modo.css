@@ -1,0 +1,171 @@
+h2.cadastro {
+  color: black;
+  font-family: arial;
+  text-align: center;
+}
+
+h2{
+  font-family: arial;
+  text-align : center;
+}
+
+p {
+  font-size: 14pt;
+  color: blue;
+}
+
+tr.branca{
+  background : white;
+  font-family: arial;
+}
+
+tr.cinza{
+  background:#cccccc;
+  font-family: arial;
+}
+
+tr.titulo{
+  color: white;
+  background: yellow;
+  font-family: arial;
+}
+
+tr.azul{
+  color: white;
+  background: blue;
+  font-family: arial;
+}
+
+#inputArea{
+
+	width: 30%;
+	background-color: #d6e5f4;
+	padding: 10px;
+	margin: auto;	
+}
+
+#inputArea
+{
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    background-color: #d6e5f4;
+    padding: 10px;
+}
+
+#inputArea input[type="text"], #inputArea textarea
+{
+	
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 1px #85b1de;
+    width: 300px;
+}
+#inputArea input[type="text"], #inputArea textarea
+{
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 1px #85b1de; 
+    width: 300px;
+    background-color: #EDF2F7;
+}
+
+#inputArea input[type="text"], #inputArea textarea
+{
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    border: solid 1px #85b1de;
+    width: 300px;
+    background-image: url( 'blue_bg.png' );
+    background-repeat: repeat-x;
+    background-position: top;
+}
+#inputArea input[type="text"]:focus, #inputArea textarea:focus
+{
+    background-image: none;
+    background-color: #ffffff;
+    border: solid 1px #33677F;
+}
+
+#inputArea input, #inputArea textarea
+{
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 4px;
+    width: 300px;
+}
+.activeField
+{
+        background-image: none;
+        background-color: #ffffff;
+        border: solid 1px #33677F;
+}
+.idle
+{
+    border: solid 1px #85b1de;
+    background-image: url( 'blue_bg.png' );
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+
+#rodape footer{
+  background-color: white;
+  font-size: 10pt;
+  color: maroon;
+  text-align: center;
+  margin: 15px 0px 12px 13px;
+  font-family: arial;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  rigth: 0;
+}
+#topo{
+	text-align: center;
+}
+#menu{
+
+  font-size: 10pt;
+  color: green;
+  text-align: left;
+  font-family: arial;
+}
+
+th {
+  font-family: arial;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+table {
+  width: 80%;
+  margin: auto;
+}
+
+th {
+  text-align: center;
+  height: 50px;
+  
+}
+
+td {
+  text-align: left;
+}
+
+form{
+ margin: auto;
+}

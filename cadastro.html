@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css"
+     href="estilo.css" />
+	 
+	<div id ="topo">
+	<img src="ufoptopo.jpg"  alt="Imagem nao encontrada"/>
+	</div>
+	<h2 class = "cadastro"> Cadastro </h2>
+</head>
+
+<body>
+	 <form name="cadastro" method="post" action="sucessoCadastro.html">
+	    <label for="nome">Matricula</label>
+        <input type="text" name="matricula" maxlength="10" />
+        <br />
+		</br>
+        <label for="email">Nome</label>
+        <input type="text" name="nome" maxlength="20" />
+        <br />
+		</br>
+	    <label for="nome">Rua</label>
+        <input type="text" name="rua" maxlength="20" />
+        <br />
+		</br>
+        <label for="email">Numero</label>
+        <input type="text" name="numero" maxlength="10" />
+        <br />
+		</br>
+		<label for="nome">Complemento</label>
+        <input type="text" name="complemento" maxlength="20" />
+        <br />
+		</br>
+		Cidade: 
+    	<select name="cidades">
+
+          <option value="1">Rio Piracicaba</option>
+          <option value="2">Joao Monlevade</option>
+          <option value="3">Belo Horizonte</option>
+		  <option value="4">Barao de Cocais</option>
+		  <option value="5">Nova Era</option>
+		  <option value="6">Itabira</option>
+
+        </select>
+		</br>
+		</br>
+		<input type="radio" name="sexo" value="F" />Feminino
+        <input type="radio" name="sexo" value="M" />Masculino
+		</br>
+		</br>
+		<label for="email">RG</label>
+        <input type="text" name="rg" maxlength="15" />
+        <br />
+		</br>
+		<label for="email">CPF</label>
+        <input type="text" name="cpf" maxlength="15" />
+        <br />
+		</br>
+		Tipo sanguineo:
+		<select name="sanguineo">
+          <option value="1">A</option>
+          <option value="2">B</option>
+          <option value="3">O</option>
+		  <option value="4">AB</option>
+	    </select>
+		Fator RH:
+		<input type="radio" name="sexo" value="positivo" />+
+        <input type="radio" name="sexo" value="negativo" />-
+		</br>
+		</br>
+		<label for="email">Telefone</label>
+        <input type="text" name="telefone" maxlength="15" />
+        <br />
+		</br>
+		<label for="email">Celular</label>
+        <input type="text" name="celular" maxlength="15" />
+        <br />
+		</br>
+		<label for="email">Email</label>
+        <input type="text" name="email" maxlength="20" />
+        <br />
+		</br>
+		Senha:  <input type="password" name="senha" />
+		</br>
+		</br>
+		Confirme sua senha: <input type="password" name="confirmacao" />
+		</br>
+		</br>
+		Acessos:</br>
+		<form action="">
+        <input type="checkbox" name="acesso" value = "bibi">Biblioteca <br>    
+		<input type="checkbox" name="acesso" value = "rest">Restaurante <br>
+		<input type="checkbox" name="acesso" value = "clube">Clube <br>
+		<input type="checkbox" name="acesso" value = "campo">Campo <br>
+	</br>
+	<input type="submit" value="Enviar"/>
+	<input type="button" value="Limpar"/>
+	</br>
+	</br>
+	</form>
+	<a href="index.html">Voltar</a>
+</body>	
+
+<div id="rodape">
+        UFOP - Marina Rocha Maia 11.1.8349 marinarochamaia@hotmail.com
+</div>
